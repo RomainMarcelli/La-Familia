@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Carte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    .navbar {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000C4F;
+
+    }
+
+    /* Styles pour les liens dans la barre de navigation */
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        /* Couleur du texte */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+
+
+    /* Styles spécifiques pour les liens que vous avez ajoutés */
+    #Carte,
+    #Présentation,
+    #info,
+    #privatisation,
+    #contact,
+    #photo {
+        font-weight: bold;
+        /* Texte en gras */
+        color: #FFE368;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        /* Couleur orange */
+    }
+
+    .txt {
+        margin-right: 20px;
+    }
+
+    img {
+        margin-left: 20px;
+    }
+
+    #carte {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    #logo {
+        position: absolute;
+        width: 300px;
+        top: 200px;
+        left: 525px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="img/pasted image 0.png" height="150px" width="150px" alt="">
+            <div class="txt">
+                <a href="index.html" id="Carte">Accueil</a>
+                <a href="carte.html" id="Carte">Carte</a>
+                <a href="presentation.html" id="Présentation">Présentation</a>
+                <a href="info.html" id="info">Informations</a>
+                <a href="privatisations.html" id="privatisation">Privatisation</a>
+                <a href="contact.html" id="contact">Contact</a>
+                <a href="#photos" id="photo">Photos</a>
+            </div>
+        </div>
+    </header>
+    <img src="img/carte2.0.png" id="carte" alt="">
+    <!-- <img src="img/pasted image 0.png" id="logo" alt=""> -->
+    <!-- <img src="img/logo_png.png" id="logo" alt=""> -->
+
+    <footer>
+        <div class="footer">
+            <div class="logo_icon">
+                <img src="img/logo_png.png" alt="Logo AST">
+                <ul class="wrapper">
+                    <li class="icon facebook" id="facebookIcon">
+                        <span class="tooltip">Facebook</span>
+                        <span class="logo_social"><i class="fab fa-facebook-f"></i></span>
+                    </li>
+                    <li class="icon twitter" id="twitterIcon">
+                        <span class="tooltip">Twitter</span>
+                        <span class="logo_social"><i class="fab fa-twitter"></i></span>
+                    </li>
+                    <li class="icon instagram" id="instagramIcon">
+                        <span class="tooltip">Instagram</span>
+                        <span class="logo_social"><i class="fab fa-instagram"></i></span>
+                    </li>
+                    <li class="icon tiktok" id="tiktokIcon">
+                        <span class="tooltip">Tik Tok</span>
+                        <span class="logo_social"><i class="fab fa-tiktok"></i></span>
+                    </li>
+                    <li class="icon youtube" id="youtubeIcon">
+                        <span class="tooltip">Youtube</span>
+                        <span class="logo_social"><i class="fab fa-youtube"></i></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="liens">
+                <ul>
+                    <h3>liens Utiles</h3>
+                    <li><a href="index.html">Acuueil</a></li>
+                    <li><a href="carte.html">Notre Carte</a></li>
+                    <li><a href="information.html">Informations</a></li>
+                    <li><a href="privatisations.html">Privatisation</a></li>
+                    <li><a href="photo.html">Photos</a></li>
+                </ul>
+            </div>
+            <div class="info">
+
+                <ul>
+                    <h3>Informations</h3>
+                    <li><a href="presentation.html">Qui sommes-nous ?</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

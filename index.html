@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Familia</title>
+    <style>
+        body {
+            background-color: #000C4F;
+        }
+
+        /* Centrer l'image et définir le contexte de positionnement */
+        .centered {
+            position: relative; /* Nécessaire pour positionnement absolu des éléments internes */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .centered img {
+            width: 450px;
+            height: 450px;
+        }
+
+        /* Style des liens */
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #000C4F;
+            border-radius: 50%; /* Rendre le lien rond */
+            padding: 20px;
+            background-color: #FFE368;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Positionnement des liens */
+        #Carte {
+            position: absolute;
+            top: 1%; /* Placer au-dessus de l'image */
+        }
+
+        #Présentation {
+            position: absolute;
+            top: 35%;
+            left: 10%; /* Premier lien à gauche */
+        }
+
+        #info {
+            position: absolute;
+            top: 35%;
+            right: 10%; /* Premier lien à droite */
+        }
+
+        #privatisation {
+            position: absolute;
+            top: 55%;
+            left: 10%; /* Deuxième lien à gauche */
+        }
+
+        #contact {
+            position: absolute;
+            top: 55%;
+            right: 10%;
+             /* Deuxième lien à droite */
+        }
+
+        #photo {
+            position: absolute;
+            bottom: 1%; /* Lien en bas de l'image */
+        }
+
+        a{
+            background-color: #FFE368;
+            color: #000C4F;
+            border-radius: 50%; /* Rendre le lien rond */
+            padding: 40px; /* Ajustement du padding pour garder un cercle */
+            text-align: center; /* Centrer le texte */
+            width: 50px; /* Largeur égale à la hauteur pour un cercle parfait */
+            height: 50px; /* Hauteur égale à la largeur pour un cercle parfait */
+            display: flex; /* Utilisation de flexbox pour aligner le texte */
+            align-items: center; /* Centrer verticalement */
+            justify-content: center; 
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centered">
+        <!-- Image centrale -->
+        <img src="img/pasted image 0.png" alt="Image" height="600px" width="600px">
+        
+        <!-- Liens autour de l'image -->
+        <a href="carte.html" id="Carte">Carte</a>
+        <a href="presentation.html" id="Présentation">Présentation</a>
+        <a href="info.html" id="info">Informations</a>
+        <a href="privatisations.html" id="privatisation">Privatisation</a>
+        <a href="contact.html" id="contact">Contact</a>
+        <a href="#photos" id="photo">Photos</a>
+    </div>
+
+</body>
+
+</html>
